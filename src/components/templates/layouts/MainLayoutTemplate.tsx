@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react"
 
 import Header from "@/components/organisms/layout/header/Header"
 
-function MainLayoutTemplate({ children }: PropsWithChildren) {
+function MainLayoutTemplate({ children }: Readonly<PropsWithChildren>) {
   return (
     <>
       <Header />
